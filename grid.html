@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .body {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+        .section {
+            width: 100%;
+            background-color: rgb(247, 247, 247);
+        }
+        .container{
+            width: 80%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+        }
+        .box{
+            padding: 5px;
+        }
+        .box img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .box img:hover{
+            border-radius: 100%;
+            transition-duration: 1s;
+            margin-left: 10px;
+        }
+      
+        .text1 h3{
+           color: rgb(176, 219, 247); 
+
+        }
+        .text2 h3{
+            color: rgb(245, 138, 123);
+            margin-bottom: 10px;
+
+        }
+        .text h2{
+            color: black;
+            margin-bottom: 10px;
+        }
+        .text p{
+            color: grey;
+            margin-bottom: 20px;
+        }
+        button {
+        padding: 20px 40px;
+        background-color: rgb(185, 66, 66);
+        border: none;
+        color: white;
+        border-radius: 6px;
+        font-size: 18px;
+        animation-name: move;
+      }
+    
+      
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+
+            <div class="box">
+                <img src="a4.jpg" />
+                <div class="text">
+                    <div class="text1">
+                        <h3>Dec 22, 2020 -</h3>
+                        </div>
+                        <div class="text2">
+                            <h3> by Steven Rich</h3>
+
+                        </div>
+        
+                    <h2>Help make this world a fairer <br/>place for all animals.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae voluptatum.</p>
+                </div>
+                <div class="btn">
+                    <button>Read More</button>
+                </div>
+             </div>
+
+             <div class="box">
+                 <img src="a5.jpg" />
+                 <div class="text">
+                    <div class="text1"> 
+                        <h3>Dec 22, 2020 -</h3>
+                    </div>
+                    <div class="text2">
+                        <h3>by Steven Rich</h3>
+                    </div>
+                    <h2>Help make this world a fairer <br/>place for all animals.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae voluptatum.</p>
+                </div>
+                <div class="btn">
+                    <button>Read More</button>
+                </div>
+             </div>
+
+             <div class="box">
+                 <img src="a6.jpg" />
+                 <div class="text">
+                    <div class="text1"> 
+                    <h3>Dec 22, 2020 -</h3> 
+                    </div>
+                    <div class="text2">
+                    <h3>by Steven Rich</h3>
+                    </div>
+                    <h2>Help make this world a fairer <br/>place for all animals.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae voluptatum.</p>
+                </div>
+                <div class="btn">
+                    <button>Read More</button>
+                </div>
+             </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>

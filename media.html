@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        max-width:1000px;
+        min-width: 800px;
+        height: 100px;
+        background-color: blueviolet;
+    }
+   @media screen and (min-width:576px){
+    header{
+        background-color:darkslategrey;
+    }
+   }
+   @media screen and (max-width:576px){
+        header{
+            background-color: chartreuse;
+            height: 100px;
+        }
+    }
+   @media screen and (min-width:768px){
+    header{
+        background-color:coral;
+        height: 50vh;
+    }
+   }
+   @media screen and (min-width: 992px) {
+        header {
+          background-color:mediumvioletred;
+          height: 200px;
+        }
+      }
+
+      @media screen and (min-width: 1200px) {
+        header {
+          background-color: rgb(192, 255, 254);
+          height: 100px;
+        }
+      }
+</style>
+<body>
+    <header></header>
+</body>
+</html>

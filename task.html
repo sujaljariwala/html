@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    button{
+        padding: 16px 30px;
+        margin: 100%;
+        font-size: 20px;
+        background-color: darkgray;
+        border: none;
+        border-radius: 20px;
+        position: relative;
+    }
+    button:hover ul{
+        display: block;
+    }
+    ul{
+        background-color:lightskyblue;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 10px;
+        width: 100%;
+        border-radius: 30px;
+        display: none;
+    }
+    ul li{
+        padding: 10px 0;
+    }
+</style>
+<body>
+    <button>
+        products
+        <ul>
+            <li>product 1</li>
+            <li>product 2</li>
+            <li>product 3</li>
+            <li>product 4</li>
+        </ul>
+    </button>
+</body>
+</html>
